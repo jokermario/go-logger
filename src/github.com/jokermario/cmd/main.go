@@ -1,9 +1,15 @@
 package main
 
 import (
+	// "time"
+
 	"time"
 
-	"go_logger"
+	// "github.com/jokermario/go_logger"
+	// "github.com/digitalocean/godo"
+	"github.com/jokermario/go_logger"
+
+	// "github.com/jokermario/go_logger"
 )
 
 func main()  {
