@@ -3,13 +3,13 @@ package main
 import (
 	"time"
 
-	"github.com/jokermario/logging"
+	"github.com/jokermario/go_logger"
 )
 
 func main()  {
-	logger := logging.New(time.RFC3339, true)
+	logger := go_logger.New(time.RFC3339, true)
 
-	logger.Log(logging.Info, "The INFO log statement")
-	logger.Log(logging.Warn, "The WARN log statement")
-	logger.Log(logging.Error, "The ERROR log statement")
+	logger.Log(go_logger.Info, "The INFO log statement")
+	logger.Log(go_logger.Warn, "The WARN log statement")
+	logger.Log(go_logger.Error, "The ERROR log statement")
 }
