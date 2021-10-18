@@ -3,7 +3,7 @@ package main
 import (
 	"time"
 
-	"github.com/jokermario/go_logger"
+	"go_logger"
 )
 
 func main()  {
